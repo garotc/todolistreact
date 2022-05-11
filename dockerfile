@@ -6,4 +6,3 @@ RUN sudo apt-get update
 COPY https://github.com/garotc/todolistreact.git
 EXPOSE 8080
 ENV PORT = 3000
-EXPOSE 50000
