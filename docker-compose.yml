@@ -2,7 +2,7 @@ services:
   webApp:
     image: nginx
     ports:
-      - "8081:81"
+      - "8080:80"
     volumes:
       - "./:/usr/share/nginx/html"
     container_name: todolistreact
