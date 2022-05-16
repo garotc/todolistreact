@@ -1,0 +1,9 @@
+services:
+  webApp:
+    image: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - "./:/usr/share/nginx/html"
+    container_name: todolistreact
+    command: tail -F /dev/null
