@@ -21,7 +21,7 @@ const TaskList = ({ tasks, setTasks }) => {
                     </li>
                 )) :
 
-                    (<li key="0">Aucune Tâche créée</li>)}
+                    (<li key="0">Aucunes Tâches</li>)}
             </ul>
 
             <Link to="/create">

@@ -3,6 +3,6 @@ import App from './App';
 
 test('n\'affiche rien', () => {
   render(<App />);
-  const linkElement = screen.getByText("Aucune Tâche créée");
+  const linkElement = screen.getByText("Aucunes Tâches");
   expect(linkElement).toBeInTheDocument();
 });
